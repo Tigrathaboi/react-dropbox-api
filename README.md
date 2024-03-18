@@ -16,6 +16,7 @@ In order to start app you need to:
 6. Generate access token in the app settings
 
 ![image_2024-03-18_17-43-48](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/3e944875-7922-4d85-817d-f73bb6a1fa3c)
+
 7. Open project in VS Code again and paste your access token in the .env file at VITE_API_TOKEN variable
 
 ![image_2024-03-18_17-45-20](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/33b7907d-0580-4727-8ec4-7f514e955741)
