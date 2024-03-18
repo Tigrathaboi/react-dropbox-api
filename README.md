@@ -28,5 +28,11 @@ In order to start app you need to:
 Here are some feature you can use at this app:
 1. You can watch and navigate through sorted files and folders system of created Dropbox app
 2. You can navigate to specified path using first input field
+
+![photo_2024-03-18_17-50-00](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/c5a27932-c2da-4e7c-99b5-82ebbbeda593)
+
 3. You can create new folders with specified path using second input field
+
+![photo_2024-03-18_17-51-44](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/c2665436-4b62-4d9f-81d2-c6dcf9a5ed78)
+
 4. You can delete folders and files from your Dropbox app
