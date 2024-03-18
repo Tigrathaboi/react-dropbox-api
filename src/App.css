@@ -1,0 +1,197 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 2rem;
+  text-align: start;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.form-block {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-block button {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.folder {
+  list-style: none;
+  min-width: 200px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #4a4a4a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-weight: 700;
+  position: relative;
+}
+
+.folder--back {
+
+}
+
+.folder--back .folder-thumbnail {
+  scale: -1 1;
+}
+
+.folder p:nth-child(1) {
+  width: 140px;
+}
+
+.folder .folder-thumbnail {
+  width: 20px;
+}
+
+.folder button {
+  position: absolute;
+  right: 10px;
+  padding: 0px;
+  margin: 0px;
+  width: 24px;
+  color: rgb(228, 107, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folder button:hover {
+  background-color: rgb(228, 107, 107);
+  color: white;
+  border-color: rgb(228, 107, 107);
+}
+
+.folder:hover {
+  border-color: #646cff;
+}
+.folder:focus,
+.folder:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.file {
+  position: relative;
+  list-style: none;
+  min-width: 200px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 10px 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3b3b3bbd;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-weight: 400;
+}
+
+.file p:nth-child(3) {
+  display: none;
+}
+
+.file .folder-thumbnail {
+  display: none;
+}
+
+.file button {
+  position: absolute;
+  right: 10px;
+  padding: 0px;
+  margin: 0px;
+  width: 24px;
+  color: rgb(228, 107, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file button:hover {
+  background-color: rgb(228, 107, 107);
+  color: white;
+  border-color: rgb(228, 107, 107);
+}
+
+.file:hover, input:hover {
+  border-color: #646cff;
+}
+.file:focus,
+.file:focus-visible,
+.input:focus,
+.input:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
