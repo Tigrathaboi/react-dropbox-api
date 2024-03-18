@@ -15,7 +15,7 @@ In order to start app you need to:
 /Usage
 
 Here are some feature you can use at this app:
-1. You can watch and navigate through files and folders system of created Dropbox app
+1. You can watch and navigate through sorted files and folders system of created Dropbox app
 2. You can navigate to specified path using first input field
 3. You can create new folders with specified path using second input field
 4. You can delete folders and files from your Dropbox app
