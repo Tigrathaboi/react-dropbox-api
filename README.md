@@ -10,9 +10,13 @@ In order to start app you need to:
 2. Open project in VS Code
 3. Open bash terminal and execute a command "npm install"
 4. Visit https://www.dropbox.com/developers/apps to create your Dropbox app if you do not have one yet
-5. Generete access token in the app settings
-6. Open project in VS Code again and paste your access token in the .env file at VITE_API_TOKEN variable
-7. Open bash terminal and execute a command "vite" in order to start app
+5. Unlock all permissions for your Dropbox app in "Permissions" part
+![photo_2024-03-18_17-43-01](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/7122028e-852a-43f9-8c68-64b34d1aa65e)
+6. Generete access token in the app settings
+![image_2024-03-18_17-43-48](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/3e944875-7922-4d85-817d-f73bb6a1fa3c)
+7. Open project in VS Code again and paste your access token in the .env file at VITE_API_TOKEN variable
+![image_2024-03-18_17-45-20](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/33b7907d-0580-4727-8ec4-7f514e955741)
+9. Open bash terminal and execute a command "vite" in order to start app
 
 /Usage
 
