@@ -1,4 +1,4 @@
-![image](https://github.com/Tigrathaboi/react-dropbox-api/assets/47396710/607f394c-1d19-4fbe-9c6d-211e7a6adaa4)# react-dropbox-api
+# react-dropbox-api
 React app using DropboxAPI (JS SDK) with ability to load folders and files from your dbx app account, specify path, create folders, delete files and folders and navigate through parent and children folders.
 
 /Setup (node+npm needed)
